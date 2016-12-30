@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFB89B4C1E0BA132007AC03D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB89B4B1E0BA132007AC03D /* main.m */; };
+		DFB89B4F1E0BA132007AC03D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB89B4E1E0BA132007AC03D /* AppDelegate.m */; };
+		DFB89B521E0BA132007AC03D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB89B511E0BA132007AC03D /* ViewController.m */; };
+		DFB89B551E0BA132007AC03D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB89B531E0BA132007AC03D /* Main.storyboard */; };
+		DFB89B571E0BA132007AC03D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB89B561E0BA132007AC03D /* Assets.xcassets */; };
+		DFB89B5A1E0BA132007AC03D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB89B581E0BA132007AC03D /* LaunchScreen.storyboard */; };
+		DFB89B631E0BABBD007AC03D /* BGItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB89B621E0BABBD007AC03D /* BGItemsViewController.m */; };
+		DFB89B651E0BD503007AC03D /* sanjiao.png in Resources */ = {isa = PBXBuildFile; fileRef = DFB89B641E0BD503007AC03D /* sanjiao.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DFB89B471E0BA132007AC03D /* JumpViewItemsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JumpViewItemsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB89B4B1E0BA132007AC03D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFB89B4D1E0BA132007AC03D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFB89B4E1E0BA132007AC03D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DFB89B501E0BA132007AC03D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DFB89B511E0BA132007AC03D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DFB89B541E0BA132007AC03D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFB89B561E0BA132007AC03D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFB89B591E0BA132007AC03D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFB89B5B1E0BA132007AC03D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFB89B611E0BABBD007AC03D /* BGItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGItemsViewController.h; sourceTree = "<group>"; };
+		DFB89B621E0BABBD007AC03D /* BGItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGItemsViewController.m; sourceTree = "<group>"; };
+		DFB89B641E0BD503007AC03D /* sanjiao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sanjiao.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFB89B441E0BA132007AC03D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFB89B3E1E0BA132007AC03D = {
+			isa = PBXGroup;
+			children = (
+				DFB89B491E0BA132007AC03D /* JumpViewItemsDemo */,
+				DFB89B481E0BA132007AC03D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFB89B481E0BA132007AC03D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFB89B471E0BA132007AC03D /* JumpViewItemsDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFB89B491E0BA132007AC03D /* JumpViewItemsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DFB89B641E0BD503007AC03D /* sanjiao.png */,
+				DFB89B4D1E0BA132007AC03D /* AppDelegate.h */,
+				DFB89B4E1E0BA132007AC03D /* AppDelegate.m */,
+				DFB89B501E0BA132007AC03D /* ViewController.h */,
+				DFB89B511E0BA132007AC03D /* ViewController.m */,
+				DFB89B611E0BABBD007AC03D /* BGItemsViewController.h */,
+				DFB89B621E0BABBD007AC03D /* BGItemsViewController.m */,
+				DFB89B531E0BA132007AC03D /* Main.storyboard */,
+				DFB89B561E0BA132007AC03D /* Assets.xcassets */,
+				DFB89B581E0BA132007AC03D /* LaunchScreen.storyboard */,
+				DFB89B5B1E0BA132007AC03D /* Info.plist */,
+				DFB89B4A1E0BA132007AC03D /* Supporting Files */,
+			);
+			path = JumpViewItemsDemo;
+			sourceTree = "<group>";
+		};
+		DFB89B4A1E0BA132007AC03D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFB89B4B1E0BA132007AC03D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFB89B461E0BA132007AC03D /* JumpViewItemsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFB89B5E1E0BA132007AC03D /* Build configuration list for PBXNativeTarget "JumpViewItemsDemo" */;
+			buildPhases = (
+				DFB89B431E0BA132007AC03D /* Sources */,
+				DFB89B441E0BA132007AC03D /* Frameworks */,
+				DFB89B451E0BA132007AC03D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JumpViewItemsDemo;
+			productName = JumpViewItemsDemo;
+			productReference = DFB89B471E0BA132007AC03D /* JumpViewItemsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFB89B3F1E0BA132007AC03D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = BogoZhou;
+				TargetAttributes = {
+					DFB89B461E0BA132007AC03D = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 8NWL5582K3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DFB89B421E0BA132007AC03D /* Build configuration list for PBXProject "JumpViewItemsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFB89B3E1E0BA132007AC03D;
+			productRefGroup = DFB89B481E0BA132007AC03D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFB89B461E0BA132007AC03D /* JumpViewItemsDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFB89B451E0BA132007AC03D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB89B5A1E0BA132007AC03D /* LaunchScreen.storyboard in Resources */,
+				DFB89B571E0BA132007AC03D /* Assets.xcassets in Resources */,
+				DFB89B551E0BA132007AC03D /* Main.storyboard in Resources */,
+				DFB89B651E0BD503007AC03D /* sanjiao.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFB89B431E0BA132007AC03D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB89B631E0BABBD007AC03D /* BGItemsViewController.m in Sources */,
+				DFB89B521E0BA132007AC03D /* ViewController.m in Sources */,
+				DFB89B4F1E0BA132007AC03D /* AppDelegate.m in Sources */,
+				DFB89B4C1E0BA132007AC03D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DFB89B531E0BA132007AC03D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFB89B541E0BA132007AC03D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFB89B581E0BA132007AC03D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFB89B591E0BA132007AC03D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFB89B5C1E0BA132007AC03D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFB89B5D1E0BA132007AC03D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFB89B5F1E0BA132007AC03D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8NWL5582K3;
+				INFOPLIST_FILE = JumpViewItemsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bg.chenghong.JumpViewItemsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DFB89B601E0BA132007AC03D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8NWL5582K3;
+				INFOPLIST_FILE = JumpViewItemsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bg.chenghong.JumpViewItemsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFB89B421E0BA132007AC03D /* Build configuration list for PBXProject "JumpViewItemsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB89B5C1E0BA132007AC03D /* Debug */,
+				DFB89B5D1E0BA132007AC03D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFB89B5E1E0BA132007AC03D /* Build configuration list for PBXNativeTarget "JumpViewItemsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB89B5F1E0BA132007AC03D /* Debug */,
+				DFB89B601E0BA132007AC03D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFB89B3F1E0BA132007AC03D /* Project object */;
+}
